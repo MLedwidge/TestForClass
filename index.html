@@ -1,0 +1,22 @@
+<html>
+    <head>
+      <title> bad Example </title>
+      <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+      <script>
+          $(document).ready(function(){
+            $("h1").click(function(){
+
+              var answer = prompt("What is your favorite color");
+              console.log(answer);
+
+              var response = answer + " is the wrong answer :( lol ";
+              $("h2").html(response);
+            });
+          });
+      </script>
+    </head>
+    <body>
+      <h1>Click on this! </h1>
+      <h2><h2>
+    </body>
+</html>
